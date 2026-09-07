@@ -21,8 +21,8 @@ print('Оценка влияния информатизации')
 print('=' * 60)
 print(df.ro_string(index = False))
 
-print('/nСредняя выработка до внедрения:', f'{mean_before:.2f} тыс. руб./чел.')
-print('/nСредняя выработка после внедрения:', f'{mean_after:.2f} тыс. руб./чел.')
+print('\nСредняя выработка до внедрения:', f'{mean_before:.2f} тыс. руб./чел.')
+print('\nСредняя выработка после внедрения:', f'{mean_after:.2f} тыс. руб./чел.')
 
 absolute growth = mean_after - mean_before
 relative_growth = absolute_growth / mean before * 100
